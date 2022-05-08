@@ -1,0 +1,10 @@
+python-dotenv
+# git+https://github.com/Rapptz/discord.py
+# discord.py
+# dislash.py
+# discord-py-interactions
+# discord-py-slash-command
+# disnake
+git+https://github.com/DisnakeDev/disnake
+# disnake-components
+requests
