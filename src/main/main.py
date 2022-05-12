@@ -39,8 +39,6 @@ async def shuffle(inter: disnake.AppCmdInter, vc: disnake.VoiceChannel = None):
     if vc is None:
         vc = disnake.utils.get(inter.guild.voice_channels, name="General")
     member_names = [member.name for member in vc.members]
-    member_names.append("hoge")
-    member_names.append("fuga")
     random.shuffle(member_names)
     await inter.response.send_message("\n".join(member_names))
 
